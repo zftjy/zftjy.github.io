@@ -179,28 +179,29 @@
     <div class="article-entry" itemprop="articleBody">
       
         <h1 id="java简单学习课"><a href="#java简单学习课" class="headerlink" title="java简单学习课"></a>java简单学习课</h1><h2 id="目录："><a href="#目录：" class="headerlink" title="目录："></a>目录：</h2><ol>
-<li>Hello World</li>
-<li>变量和常量</li>
-<li>数据类型</li>
-<li>运算符</li>
+<li><strong>Hello World</strong></li>
+<li><strong>变量和常量</strong></li>
+<li><strong>数据类型</strong></li>
+<li><strong>运算符</strong></li>
+<li><strong>结构</strong></li>
 </ol>
 <h3 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello World"></a>Hello World</h3><ul>
 <li>java 框架</li>
 </ul>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.company;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Main</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">  	</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<p>注：main方法快捷键————-&gt;先输入main回车</p>
+<p>注：<strong>main</strong>方法<strong>快捷键</strong>————-&gt;<strong>先输入main回车</strong></p>
 <ul>
 <li><p>打印（区分大小写）</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">System.out.println();  分号;必须加</span><br><span class="line">例：</span><br><span class="line">		System.out.println(1+1);</span><br></pre></td></tr></table></figure>
 
 </li>
 </ul>
-<p>注：打印快捷键——————-&gt;sout回车</p>
+<p>注：<strong>打印快捷键——————-&gt;</strong>sout回车**</p>
 <h3 id="变量和常量"><a href="#变量和常量" class="headerlink" title="变量和常量"></a>变量和常量</h3><ul>
 <li><p>变量：可变的量</p>
 </li>
-<li><p>常量：固定的量     （字面常量——性别、年龄、工资）</p>
+<li><p>常量：固定的量     （<strong>字面常量</strong>——性别、年龄、工资）</p>
 <ol>
 <li><p>变量     </p>
 <p>注：命名规则——-&gt;<strong>类型 变量名 = 数值或表达式</strong></p>
@@ -215,26 +216,26 @@
 <h3 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h3><ul>
 <li><p>基本数据类型  <strong>8个</strong></p>
 <ol>
-<li><p>整数类型  （int short  byte long）</p>
+<li><p>整数类型  （<strong>int short  byte long</strong>）</p>
 </li>
-<li><p>浮点类型    (float double)  </p>
+<li><p>浮点类型    (<strong>float double</strong>)  </p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">float d &#x3D; 3.14f;   float类型数据后面必须加一个f&#x2F;F</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>字符类型   （char —单引号引起来的数据类型）</p>
+<li><p>字符类型   （<strong>char —单引号引起来的数据类型</strong>）</p>
 </li>
-<li><p>布尔类型    （boolean ——true/false）</p>
+<li><p>布尔类型    （<strong>boolean ——true/false</strong>）</p>
 </li>
 </ol>
 </li>
 <li><p>引用数据类型</p>
 <ol>
-<li>字符串类型 String （双引号引起来的数据类型）</li>
+<li>字符串类型 <strong>String</strong> （双引号引起来的数据类型）</li>
 </ol>
 </li>
 </ul>
 <h3 id="运算符"><a href="#运算符" class="headerlink" title="运算符"></a>运算符</h3><ul>
 <li><p>算术运算符 </p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">+、-、*、&#x2F;、++、--</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">+、-、*、&#x2F;、++（自增）、--（自减）</span><br></pre></td></tr></table></figure>
 
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">System.out.println(12&#x2F;5);  &#x2F;&#x2F; int &#x2F; int 不保留小数取整</span><br><span class="line">System.out.println(12&#x2F;5.0); &#x2F;&#x2F; int &#x2F; double &#x3D;double</span><br></pre></td></tr></table></figure>
 
@@ -266,11 +267,62 @@
 <li><p>简单小案例——扫描器</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"> 			&#x2F;&#x2F;实现一个功能：求两数相加</span><br><span class="line">import java.util.Scanner;   导入扫描器</span><br><span class="line">        &#x2F;&#x2F;拿过来一个扫描器，这个扫描器作用扫描键盘录入的数字</span><br><span class="line">        Scanner sc &#x3D; new Scanner(System.in);</span><br><span class="line">        &#x2F;&#x2F;利用扫描器接受一个int类型的数据</span><br><span class="line">        System.out.println(&quot;输入第一个数:&quot;);</span><br><span class="line">        int num1 &#x3D; sc.nextInt();</span><br><span class="line">        System.out.println(&quot;输入第二个数:&quot;);</span><br><span class="line">        int num2 &#x3D; sc.nextInt();</span><br><span class="line">        int num &#x3D; num1 + num2;</span><br><span class="line">        System.out.println(&quot;和为:&quot;+ num);</span><br></pre></td></tr></table></figure>
 
+
 </li>
 </ol>
 </li>
 </ul>
+<h3 id="结构："><a href="#结构：" class="headerlink" title="结构："></a>结构：</h3><h3 id="流程控制："><a href="#流程控制：" class="headerlink" title="流程控制："></a>流程控制：</h3><ol>
+<li><p><strong>顺序结构</strong></p>
+</li>
+<li><p><strong>分支结构</strong></p>
+<ol>
+<li><p><strong>if</strong>     </p>
+<ol>
+<li><p><strong>单分支</strong></p>
+<p>if （）{} （）中是一个条件表达式，结果true false ———-&gt;true执行{}中的代码否则不执行</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">int num1 &#x3D; 3;</span><br><span class="line">     int num2 &#x3D; 4;</span><br><span class="line">     int num3 &#x3D; 5;</span><br><span class="line">         </span><br><span class="line">     &#x2F;&#x2F; 2.求和</span><br><span class="line">     int sum &#x3D; num1 + num2 + num3;</span><br><span class="line">     System.out.println(&quot;和为：&quot; + sum);</span><br><span class="line">     &#x2F;&#x2F; 3.判断奖品</span><br><span class="line">    &#x2F;&#x2F;大于等于13，一等奖</span><br><span class="line">     if (sum&gt;&#x3D;13)&#123;</span><br><span class="line">         System.out.println(&quot;恭喜你中了一等奖!&quot;);</span><br><span class="line">     &#125;</span><br></pre></td></tr></table></figure>
 
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">if (sum&gt;&#x3D;13)&#123;</span><br><span class="line">            System.out.println(&quot;恭喜你中了一等奖!&quot;);</span><br><span class="line">        &#125;</span><br><span class="line">        if (sum&gt;&#x3D;9 &amp;&amp; sum&lt;13)&#123;</span><br><span class="line">            System.out.println(&quot;恭喜你中了一等奖!&quot;);</span><br><span class="line">        &#125;</span><br><span class="line">        if (sum&gt;&#x3D;7 &amp;&amp; sum&lt;9)&#123;</span><br><span class="line">            System.out.println(&quot;恭喜你中了一等奖!&quot;);</span><br><span class="line">        &#125;</span><br><span class="line">        if (sum&lt;7)&#123;</span><br><span class="line">            System.out.println(&quot;恭喜你中了一等奖!&quot;);</span><br><span class="line">        &#125;</span><br></pre></td></tr></table></figure>
+
+
+
+</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+<pre><code>2. **多分支**
+
+   <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">多分支结构</span><br><span class="line">if()&#123;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#125;else if()&#123;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#125;else if()&#123;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line">else&#123;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+   <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">else隐藏一个条件，跟上面的分支相反的可能</span><br><span class="line">if (sum&gt;&#x3D;13)&#123;</span><br><span class="line">            System.out.println(&quot;恭喜你中了一等奖!&quot;);</span><br><span class="line">        &#125;else if (sum&gt;&#x3D;9 )&#123; &#x2F;&#x2F;sum&lt;13</span><br><span class="line">            System.out.println(&quot;恭喜你中了一等奖!&quot;);</span><br><span class="line">        &#125;else if (sum&gt;&#x3D;7)&#123;  &#x2F;&#x2F;sum&lt;9</span><br><span class="line">            System.out.println(&quot;恭喜你中了一等奖!&quot;);</span><br><span class="line">        &#125;else&#123;  &#x2F;&#x2F;sum&lt;7</span><br><span class="line">            System.out.println(&quot;恭喜你中了一等奖!&quot;);</span><br><span class="line">        &#125;</span><br></pre></td></tr></table></figure>
+
+
+
+3. **双分支**
+
+   两个选择
+
+   <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">if (sum&gt;&#x3D;13)&#123;</span><br><span class="line">           System.out.println(&quot;恭喜你中了一等奖!&quot;);</span><br><span class="line">       &#125;else&#123;</span><br><span class="line">           System.out.println(&quot;谢谢参与&quot;);</span><br><span class="line">       &#125;</span><br></pre></td></tr></table></figure></code></pre><ol start="2">
+<li><p><strong>switch</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">结构</span><br><span class="line">int 变量名 &#x3D; 值&#x2F;表达式；</span><br><span class="line">switch（变量名）&#123;</span><br><span class="line">	case： 表达式&#x2F;值   break；</span><br><span class="line">	case： ...       break；</span><br><span class="line">	default： 表达式&#x2F;值</span><br><span class="line">&#125;</span><br><span class="line">注：如果default在中间后面要加上break防止代码穿透，在末尾可以省略break</span><br></pre></td></tr></table></figure>
+
+
+
+</li>
+</ol>
+<pre><code><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F;功能：作为一个学生，每周做什么事</span><br><span class="line">    &#x2F;&#x2F;定义一个变量。定义星期几</span><br><span class="line">    int week &#x3D; 2;</span><br><span class="line">    &#x2F;&#x2F;防止代码穿透 每个分支后面加一个关键词break</span><br><span class="line">    switch (week)&#123;</span><br><span class="line">        case 1:</span><br><span class="line">            System.out.println(&quot;上语文课&quot;);break;</span><br><span class="line">        case 2:</span><br><span class="line">            System.out.println(&quot;上数学课&quot;);break;</span><br><span class="line">        case 3:</span><br><span class="line">            System.out.println(&quot;上英语课&quot;);break;</span><br><span class="line">        case 4:</span><br><span class="line">            System.out.println(&quot;上体育课&quot;);break;</span><br><span class="line">        case 5:</span><br><span class="line">            System.out.println(&quot;上化学课&quot;);break;</span><br><span class="line">        case 6:</span><br><span class="line">            System.out.println(&quot;写作业&quot;);break;</span><br><span class="line">        case 7:</span><br><span class="line">            System.out.println(&quot;游玩&quot;);break;</span><br><span class="line">        default：</span><br><span class="line">        	System.out.println(&quot;请输入正确的星期&quot;);</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure></code></pre><ol start="3">
+<li><p><strong>循环结构</strong></p>
+<ol>
+<li><strong>while</strong></li>
+<li><strong>do-while</strong></li>
+<li><strong>for</strong></li>
+</ol>
+</li>
+</ol>
+<h4 id=""><a href="#" class="headerlink" title=""></a></h4>
       
 
       
